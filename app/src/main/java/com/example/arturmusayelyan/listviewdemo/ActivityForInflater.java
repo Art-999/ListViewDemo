@@ -17,18 +17,20 @@ public class ActivityForInflater extends AppCompatActivity {
         setContentView(R.layout.activity_for_inflater);
         relativeLayout = (RelativeLayout) findViewById(R.id.my_relativeLayout);
         linearLayout = (LinearLayout) findViewById(R.id.my_LinerLayout);
+//        TextView textView = (TextView) findViewById(R.id.text_View);
+//        Inqe chishta kqti R class-ic bayc chi haskana te vor ContentView-ica
 
         LayoutInflater inflater = getLayoutInflater();
-        // 1-in tarberak
-//        View view = inflater.inflate(R.layout.sublayout, null);
-//        linearLayout.addView(view);
-
-        //2-rd tarberak
-//        View view = inflater.inflate(R.layout.sublayout, linearLayout, false);
-//        linearLayout.addView(view);
-
-        //3-rd tarberak
-        // ete true-n chgrenq eli nuyn dzev kashxati vorovhetev inqe default true-e haskanum
+//        // 1-in tarberak
+////        View view = inflater.inflate(R.layout.sublayout, null);
+////        linearLayout.addView(view);
+//
+//        //2-rd tarberak
+////        View view = inflater.inflate(R.layout.sublayout, linearLayout, false);
+////        linearLayout.addView(view);
+//
+//        //3-rd tarberak
+//        // ete true-n chgrenq eli nuyn dzev kashxati vorovhetev inqe default true-e haskanum
         View view = inflater.inflate(R.layout.sublayout, linearLayout, true);
 
     }
