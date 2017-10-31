@@ -28,13 +28,13 @@ public class MainActivity extends AppCompatActivity implements OnItemClickListen
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        TextView temp=(TextView)view;
+        TextView temp = (TextView) view;
 //        if(position!=3){
 //            Toast.makeText(this,temp.getText()+" "+position,Toast.LENGTH_SHORT).show();
 //        }
 //        else {
 //            Toast.makeText(this,"Worked",Toast.LENGTH_SHORT).show();
 //        }
-        Toast.makeText(this,temp.getText()+" "+position, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, temp.getText() + " " + position, Toast.LENGTH_SHORT).show();
     }
 }

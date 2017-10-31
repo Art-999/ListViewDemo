@@ -19,5 +19,4 @@
         android:text="Large Text"
         android:layout_weight="1"
         android:layout_gravity="top|center_horizontal"/>
-
 </LinearLayout>
