@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+//http://www.androprogrammer.com/2014/10/data-adapters-in-android.html
 public class ListViewWithBaseAdapter extends AppCompatActivity {
     ListView listView;
 
