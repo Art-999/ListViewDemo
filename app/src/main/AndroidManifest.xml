@@ -12,15 +12,18 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".ActivityList" />
         <activity android:name=".ActivityForInflater" />
-        <activity android:name=".ListViewWithImage"></activity>
+        <activity android:name=".ListViewWithImage" />
         <activity android:name=".ListViewWithCustomAdapter">
+
+        </activity>
+        <activity android:name=".ListViewWithBaseAdapter" />
+        <activity android:name=".ListViewWithCustomadapter2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListViewWithBaseAdapter"></activity>
     </application>
 
 </manifest>

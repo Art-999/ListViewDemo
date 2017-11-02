@@ -44,7 +44,7 @@ class SingleRow {
 class MyBaseAdapter extends BaseAdapter {
     //    String[] titles;
 //    String[] descriptions;
-//    int[] images;
+//    int[] imagesArray;
     ArrayList<SingleRow> list;
     Context context;
 

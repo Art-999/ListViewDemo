@@ -101,7 +101,7 @@ class MyCustomAdapter extends ArrayAdapter<String> {
 //        TextView myTitle = row.findViewById(R.id.textViewForCustomAdapter1);
 //        TextView myDescription = row.findViewById(R.id.textViewForCustomAdapter2);
 //
-//        myImage.setImageResource(images[position]);
+//        myImage.setImageResource(imagesArray[position]);
 //        myTitle.setText(titleArray[position]);
 //        myDescription.setText(descriptionArray[position]);
 //
